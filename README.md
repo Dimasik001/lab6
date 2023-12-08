@@ -11,6 +11,145 @@
 Задачи:
 
 
+
+```html
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <script src="lab6.js"></script>
+  <title>Лабораторная №6</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ </head>
+ <body>
+  
+  <h1>Лабораторная №6</h1>
+  <!-- Задание 1 -->
+  <p>
+    <button onclick="func1()">1 Задание</button>
+</p>
+
+
+  <!-- Задание 2 -->
+  <p>
+  
+    <button onclick="func2()">2 Задание</button>
+    <input type="text" id="myInput" value="ЕНОТ">
+</p>
+
+<!-- Задание 3 -->
+<p>
+  <button onclick="func3()">3 Задание</button>
+  <input type="text" id="myyInput" value="БИБА">
+</p>
+
+
+<!-- Задание 4 -->
+<p>
+  <button onclick="func4()">4 Задание</button>
+  <input type="number" id="myyInputt" value="3">
+</p>
+
+
+<!-- Задание 5 -->
+<p>
+  <button onclick="func5()">5 Задание</button>
+  <input type="text" id="input51" value="БИБА">
+  <input type="text" id="input52" value="БОБА">
+</p>
+
+<!-- Задание 6 -->
+<p>
+  <button onclick="this.innerHTML = 'Текст поменялся'">6 Задание</button>
+</p>
+
+<!-- Задание 7-->
+<p>
+  <button onclick="func7()">7 Задание</button>
+  <input type="text" id="Inputs" value="asdadssadasdт">
+</p>
+<!-- Задание 8-->
+<p>
+  <button onclick="func8()">8 Задание</button>
+  <button onclick="func88()">8 Задание</button>
+  <input type="text" id="Innput" value="sddsasddas">
+</p>
+
+<!-- Задание 9-->
+<p>
+  <button onmouseover="alert('Вы навелись на кнопку')">9 Задание</button>
+</p>
+
+<!-- Задание 10-->
+<p>
+  <button ondblclick="alert('двойное нажатие')">10 Задание</button>
+</p>
+<style>
+  .a {
+   border: 2px double green; 
+   background-color: rgb(98, 196, 69);
+   width:130px;
+  }
+ </style>
+<!-- Задание 11-->
+<p>
+  <div class="a" onmouseover="alert('Наведение ')">11 ЗАДАНИЕ</div>
+
+</p>
+
+<!-- Задание 12-->
+<p>
+  <button onclick="func12()">12 Задание</button><br>
+  <img id="myImage" src="suzuki.jpeg" width="200" height="200">
+</p>
+
+<!-- Задание 13-->
+<p>
+  <button onclick="alert(this.innerHTML)">13 Задание</button>
+</p>
+<!-- Задание 14-->
+<p>
+  <input type="text" id="Inputqq" value="sdadadsa">
+  <button onclick="this.previousElementSibling.value = 'Изменён'">14 Задание</button>
+ 
+</p>
+<!-- Задание 15-->
+<p>
+  <button onclick="this.disabled = true;">15 Задание</button>
+</p>
+<!-- Задание 16-->
+<p>
+  <button onclick="func16()">16 Задание</button>
+<p id="clickCount">Количество нажатий: 0</p>
+</p>
+
+<!-- Задание 17-->
+<p>
+  <button onclick="this.style.cursor = 'pointer'">17 Задание</button>
+</p>
+<!-- Задание 18-->
+<p>
+ 
+  <button onclick="func18()">18 Задание</button>
+  <p id="hide">id=hide</p>
+</p>
+<!-- Задание 19-->
+<p>
+ 
+  <button onclick="this.style.display = 'none'">19 Задание</button>
+</p>
+
+<!-- Задание 20-->
+<p>
+  <button onclick="func20()">20 Задание</button>
+</p>
+
+</body>
+</html>
+```
+Код на JS
 ```JavaScript
 function func1() {
   alert("Кнопка была нажата!");
